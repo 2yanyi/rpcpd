@@ -1,15 +1,21 @@
 # %「 遠端過程調用供電裝置 」
 
-The RPC-PD
+一款灵活的，简单的，高性能的长连接框架，支持多种语言的无缝连接。
 
 <br>
 
 **项目描述**
 
-- 支持多协议的长连接框架
-- 过程调用支持同步和异步
-- 支持消息订阅模式
-- 可选的端到端加密
+- 支持多协议的长连接通信
+- 支持过程调用模式：C2S, S2C, C2C
+- 支持消息订阅
+- 端到端加密
+
+**模式**
+
+- C2S: client call server function.
+- S2C: server call client function.
+- C2C: client call client function (same server).
 
 <br>
 
